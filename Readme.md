@@ -10,6 +10,10 @@ The purpose of this capstone project is to demonstrate:
 
 > Note: This project only performs forward inference with **randomly initialized weights**, meaning no learning or training is involved. As expected, the accuracy will be around random chance (~10%).
 
+Requirements:
+- CUDA Toolkit (e.g., 12.x)
+- Visual Studio with C++ build tools (on Windows) or GCC/Clang on Linux
+- CMake (version ≥ 3.22)
 
 ## Build Instructions
 ```bash
