@@ -1,7 +1,15 @@
 # CUDA MNIST Neural Network
 
 ## Description
-This project implements a simple feed-forward neural network using CUDA to perform inference on the MNIST dataset.
+This project implements a simple Feedforward Neural Network running entirely on the GPU using CUDA. The network is designed to perform inference (forward pass) on the MNIST dataset of handwritten digits (0–9).
+
+The purpose of this capstone project is to demonstrate:
+- GPU memory management
+- CUDA kernel programming
+- Parallel matrix-vector operations
+
+> Note: This project only performs forward inference with **randomly initialized weights**, meaning no learning or training is involved. As expected, the accuracy will be around random chance (~10%).
+
 
 ## Build Instructions
 ```bash
