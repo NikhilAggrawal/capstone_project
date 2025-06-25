@@ -1,0 +1,22 @@
+# Ignore binary files
+*.exe
+*.out
+*.bin
+*.o
+*.obj
+
+# Ignore dataset files (optional)
+data/
+
+# Ignore temporary files
+*.log
+*.tmp
+*.cache
+
+# VSCode settings (optional)
+.vscode/settings.json
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
